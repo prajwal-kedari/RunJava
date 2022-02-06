@@ -38,7 +38,7 @@ jobs:
         run: java HelloWorld
       - name: compiler Java (test)
         run: javac generator.java
-      - name:Run Java (test)
+      - name: Run Java (test)
         run: java generator
       - name: Test All File (.class)
         run: ls -a
