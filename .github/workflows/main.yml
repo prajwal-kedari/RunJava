@@ -31,9 +31,9 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: compiler The Java file
-        run:|
-             javac HelloWorld.java
-             ls
+        run: |
+          javac HelloWorld.java
+          ls
       - name: Run Java File
         run: java HelloWorld
          
