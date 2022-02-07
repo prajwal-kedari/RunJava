@@ -1,7 +1,7 @@
 package com.secure_key_Java.github;
 import java.time.LocalDateTime;
 import java.math.BigInteger;
-public class  generator{
+public class  Generator{
 public static void  main(String arg[]){
 LocalDateTime now = LocalDateTime.now();
 String min   = String.valueOf( now.getMinute()     *2  );
